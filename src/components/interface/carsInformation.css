@@ -1,0 +1,19 @@
+.cars{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.l{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    left: 80%;
+    bottom: 0%;
+    box-shadow: 5px 5px 30px 1px #2196f3;
+    transition: 0.5s;
+}
+.l:hover{
+    box-shadow: 5px 5px 30px 20px #2196f3;
+}
